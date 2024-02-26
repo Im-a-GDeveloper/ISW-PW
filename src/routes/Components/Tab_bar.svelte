@@ -4,32 +4,31 @@
 
 
 
-<div class="tab_bar">
+
+<div class="tab_bar_container">
     <div class="img_container">
-        <img src="/Icons/icons8-búsqueda-96.png" alt="Search Icon">
+        <img src="/Icons/icons8-búsqueda-96.png" alt="">
     </div>
 
     <div class="img_container">
-        <img src="/Icons/icons8-casa-96.png" alt="home icon">
+        <img src="/Icons/icons8-casa-96.png" alt="">
     </div>
 
     <div class="img_container">
-        <img src="/Icons/icons8-vender-stock-96.png" alt="Cart Icon">
+        <img src="/Icons/icons8-vender-stock-96.png" alt="">
     </div>
 </div>
 
 
-
 <style>
-    .tab_bar{
+    .tab_bar_container{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         gap: 50px;
-        background-color: #1E212A;
+        background-color: black;
         height: 80px;
-        
     }
 
     .img_container img{
